@@ -64,7 +64,7 @@ sudo vi /etc/ssh/sshd_config
 ```
 - Change the line that reads `PasswordAuthentication yes` to `PasswordAuthentication no`.
 - To prohibit `root` login, change the line that reads `PermitRootLogin prohibit-password` to  `PermitRootLogin no`
-- Restart the `sshd` service by running `sudo service ssh restart`
+- Restart the `sshd` service by running `sudo service sshd restart`
 
 ### Configure the local timezone
 - Configure the local timezone to UTC
