@@ -215,7 +215,7 @@ application.secret_key = 'catalog_secret_key'
 |-----------------------static  
 |-----------------------templates  
 |-----------------------venv  
-|-----------------------__init__.py  
+|-----------------------\_\_init\_\_.py  
 |----------------catalog.wsgi
 
 ### Restart Apache
